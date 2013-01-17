@@ -1,0 +1,447 @@
+<!-- Bernice Johnson-->
+<!-- Project week 1-->
+<!-- ASD 13/01-->
+
+
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>My Love Tracker</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Theme Roller-->
+	
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<link rel="stylesheet" href="css/style.css"/>
+	
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body>
+     
+    <div data-role="page" id="home" 
+    data-position="fixed">
+
+          <div data-role="header" data-position="fixed" data-theme="a"> 
+      <div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" data-position="left"/>
+     </div> 
+</div>
+
+
+
+  <data data-role="content">
+
+<div id="logo">
+    <a href="#addamoment"><img  src="images/puppylove4.png" ="Logo" data-position="center"/></a>
+
+        </div>
+ <!--         </div> -->
+      
+      
+          <div data-role="content"> 
+                <ul data-role="listview" data-theme="c" data-filter="true" data-inset="false"> 
+                      <li data-role="list-divider"  >Browse Moments</li>              
+               	           <li><a href="#met" ><img src="images/img/09-chat-2@2x.png" class="ui-li-icon"/>
+                              <h3>First Met</h3></a></li>
+                           <li><a href="#date" ><img src="images/img/299-ticket@2x.png" class="ui-li-icon"/>
+                              <h3>First Date</h3></a></li>  
+               	           <li><a href="#kiss" ><img src="images/img/269-happyface@2x.png" class="ui-li-icon"/>
+                              <h3>First Kiss</h3></a></li>
+               	           <li><a href="#loveyou" ><img src="images/img/29-heart@2x.png" class="ui-li-icon"/>
+                              <h3>First said I love you</h3></a></li>
+                           <li><a href="#special moments" ><img src="images/img/24-gift@2x.png" class="ui-li-icon"/>
+                              <h3>Special Moments</h3></a></li>
+                </ul>
+             </div>
+        
+      
+       <div data-role="footer" data-position="fixed" data-theme="c">
+     	     <div data-role="navbar">
+	             <ul>
+		            <li><a href="#about" data-icon="info">About Page</a></li>
+                    <li><a href="#addamoment" data-icon="info">Add Moment</a></li>
+		             
+		           
+	              </ul>
+             </div>
+         </div></footer>
+     </div>   
+
+
+     <!-- Start of first page About Page-->
+<div data-role="page" id="about" data-add-back-btn="true" data-position="center" style="background-image:url(images/img/pinkb.png)">
+
+
+	<div data-role="header">
+		 <div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" data-position="center"/>
+     </div> 
+
+	<!--	<span><h2><img src="images/img/logo2.png"></h2></span> -->
+
+  <!--       <p><img  src="images/img/logo.png" ="Logo" data-position="left"/></p> -->
+	</div><!-- /header -->
+
+	<ul div data-role="content"> 
+
+	<div data-role="collapsible-set">
+   
+	<div data-role="collapsible" data-collapsed="false" >
+	<h3>About My Love Tracker App</h3>
+	<p>My Love Tracker is a fun app made to keep track of all your relationships special moments.</p>
+	</div>
+
+	<div data-role="collapsible">
+	<h3>App Created by</h3>
+	<p>Bernice A. Johnson: Designer/Mobile Developer</p>
+	<p>copyright 2012</p>
+	</div>
+
+	<div data-role="collapsible">
+	<h3>My Contact Information</h3>
+	<p>Email: bernicejohnson@fullsail.edu</p>
+	</div>
+
+	<div data-role="collapsible">
+	<h3>Illustration Credit</h3>
+	<p>www.istockphoto.com</p>
+
+	</div>
+
+</div>
+
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+		           
+		            <li><a href="#git" data-icon="info">Git & GH Links</a></li>
+	              </ul>
+             </div><!-- /navbar -->
+         </div><!--/footer-->    
+     </div>
+
+
+<!-- Start of First Met-->
+<div data-role="page" id="met" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
+
+
+	<div data-role="header"  data-position="fixed">
+	 <div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" />
+     </div> 
+	</div><!-- /header -->
+
+
+	<div data-role="content">	
+
+		 <div data-role="content">
+         	<img  src="images/img/Tape.png" ="tape"  data-position="center"/>
+     </div> 		
+	</div><!-- /content -->
+
+	<div data-role="footer"  data-position="fixed">
+		<div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+		           
+	              </ul>
+             </div><!-- /navbar -->
+         </div><!--/footer-->    
+     </div>
+
+
+<!-- Start of First Date-->
+<div data-role="page" id="date"  data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
+
+	<div data-role="header"  data-position="fixed" >
+		 <div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" />
+     </div> 
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		 <div data-role="content">
+         	
+     </div> 		
+	<img  src="images/img/Tape.png" id="tape"  data-position="center"/>
+		</div><!-- /content -->
+
+	<div data-role="footer"  data-position="fixed">
+		<div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+		            
+
+	              </ul>
+             </div><!-- /navbar -->
+         </div><!--/footer-->    
+     </div>
+
+
+<!-- Start of First Kiss-->
+<div data-role="page" id="kiss" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
+
+	<div data-role="header" data-position="fixed">
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" />
+     </div> 
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<img  src="images/img/Tape.png" id="tape"  data-position="center"/>
+		</div><!-- /content -->	
+
+
+	<div data-role="footer" data-position="fixed">
+		 <div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+		             
+	              </ul>
+             </div><!-- /navbar -->
+         </div><!--/footer-->    
+     </div>
+
+<!-- Start of First I love you-->
+<div data-role="page" id="loveyou" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
+
+	<div data-role="header" data-position="fixed">
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" />
+     </div> 
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<img  src="images/img/Tape.png" id="tape"  data-position="center"/>			
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		 <div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+		           
+	              </ul>
+             </div><!-- /navbar -->
+         </div><!--/footer-->    
+     </div>
+
+
+<!-- Start of Special Moments-->
+<div data-role="page" id="special moments" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
+
+	<div data-role="header" data-position="fixed">
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" />
+     </div> 
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<img  src="images/img/Tape.png" id="tape"  data-position="center"/>	
+		</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		 <div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+		            
+
+	              </ul>
+             </div><!-- /navbar -->
+         </div><!--/footer-->    
+     </div>
+
+ <!-- Start of Git Links-->
+<div data-role="page" id="git" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
+
+	<div data-role="header" data-position="fixed">
+
+		<div data-role="content">
+         	<img  src="images/img/logo2.png" id="Logo" />
+     </div> 
+	
+
+   </div>
+	
+
+	  <div data-role="content">
+          <ul data-role="listview"  data-inset="true" data-theme="c">
+                <!--Creats A Header Above-->   
+                   <li data-role="list-divider"  data-theme="c"  >My Git & GH-pages links below</li>          
+               	   <li><a href="https://github.com/bjohnson6/asd1212">ASD WEEK ONE</a></li>
+               	   <li><a href="http://bjohnson6/github.com/asd1/lovetrackerapp/JQMobile_Template/index.html">GH-PAGES</a></li> 
+                         
+               	  
+           </ul>		
+	</div><!-- /content -->
+
+	  <div data-role="footer" data-position="fixed">
+		 <div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+		            
+
+	              </ul>
+         </div><!-- /navbar -->
+       </div><!--/footer-->    
+    </div>
+
+     <!--Start of additempage-->
+         <div data-role="page" id="addamoment" data-add-back-btn="true" >
+
+         	   <div data-role="header" data-position="" >
+           	 <div data-role="content"> 
+         <h1><img  src="images/img/logo2.png" id="Logo" data-position="left"/></h1>
+ <!--    </div> -->
+         	 </div>	<!--/header-->
+      </div>
+
+           
+     <!--ADD Moment FORM-->
+         <div data-role="content">
+         	
+         	<p>*fields required</p>
+
+         	<form action="" method="post" id="addmomentform">
+         		<!--Add select here here-->
+         	  <div data-role="fieldcontain">
+         	  	   <label for="Add A Moment">*Choose A Moment</label>
+         	  	   
+         	 
+         	  	   <select name="Choose A Moment" id="Choose A Moment" data-native-menu="false" class="required">
+         	  	   	  <option data-placeholder="true" value=>Please Select One</option>
+         	  	   	  <optgroup label="Choose A Moment">      
+         	  	   	     <option value="First Met">First Met</option>
+         	  	   	     <option value="First Date">First Date</option>
+         	  	   	     <option value="First Kiss">First Kiss</option>
+         	  	   	     <option value="First Said I Love You!">First Said I Love You!</option>
+         	  	   	      <option value="Our Song">Our Song</option>
+         	  	   	  </optgroup>   
+         	  	   	  <optgroup label="Choose Something Else">  
+         	  	   	  	 <option value="Relationship Status">Relationship Status</option>
+                         <option value="Calculate Time together">Calculate Time Together</option>
+                         <option value="Note a Special Moment">Note a Special Moment</option>
+                      </optgroup>  
+         	  	   	</select>     
+                </div>
+            
+
+
+
+         	  <div data-role="fieldcontain">
+         		  <label for="name">Name:</label>
+         		  <input type="text" name="name" id="name"  placeholder="Your first name or song name."/>
+         	  </div>
+         	   	
+              <div data-role="fieldcontain">
+         		  <label for="When">When:</label>
+         		  <input type="text" name="when" id="when" />
+         	   </div>
+
+              <div data-role="fieldcontain">
+         		  <label for="What">What:</label>
+         		  <input type="text" name="what" id="what" placeholder="What were you doing?" />
+         	   </div>
+
+                <div data-role="fieldcontain">
+         		  <label for="Where">Where:</label>
+         		  <input type="text" name="where" id="where" placeholder="Where you were, place."/>
+         		</div>  
+
+         		  <div data-role="fieldcontain">
+						<label for="Start">Start Date: </label>
+						<input type="date" name="Start" id="start" placeholder="2012-10-1" />
+						<label>Please select the start date of your moment.</label>
+					</div>
+					 <div data-role="fieldcontain">
+						<label for="End">End Date: </label>
+						<input type="date" name="End" id="end" placeholder="2012-10-11" />
+						<label>Please select the end or present date.</label>
+					</div>
+                 
+                 <div data-role="fieldcontain">
+         		   	    <fieldset data-role= "controlgroup">
+         		   	    	<legend> Relationship Status:</legend>
+         		   	    	<input type="radio" value="Dating" name="status-role" id="status-role-1" checked="true" />
+         		   	    	<label for="status-role-1">Dating</label>
+                            <input type="radio" value="A Couple" name="status-role" id="status-role-2" />
+                            <label for="status-role-2">A Couple</label>
+         		   	    </fieldset>
+         		      
+         	     </div>  
+
+
+
+         		 <div data-role="fieldcontain">
+         		      <label for="ratemymoment">Rate My Moment: (1-10 scale)</label>
+         		      <input type="range" name="ratemymoment" id="ratemymoment"   value="1" min"0" max="10" data-highlight="true"/>
+         		</div>  
+
+                <div data-role="fieldcontain">
+         		     <label for="Note">Add Notes:</label>
+         		     <textarea></textarea>
+         		</div>  
+
+         	    <div data-role="fieldcontain">
+         		       <input type="submit" value= "Save Moment" data-theme="a" />
+         		  </div>  
+                 <div data-role="fieldcontain">
+         		       <input type="submit" value= "Reset" data-theme="d" />
+         		  </div>  
+         		   <a href="#momenterrors" id="myerrorslink" data-rel="dialog" data-transition="pop">Open Errors</a> 
+         	</form>
+        
+         </div>
+             	 <div data-role="footer" data-position="fixed">
+		    <div data-role="navbar">
+	             <ul>
+		            <li><a href="#home" data-icon="home">Home</a></li>
+
+	              </ul>
+	              </div>
+          </div>   
+               
+      </div>   
+                <div data-role="dialog" id="momenterrors" data-add-back-btn="true" >
+                	<div data-role="header" data-position="fixed">
+                		<h1>Missing Fields</h1>
+                	</div>
+                <div data-role="content">	
+                  <ul>
+                    <li>Choose a moment</li>
+                  </ul>
+                </div>
+      </div>  	
+
+
+
+
+
+
+
+	<!-- JavaScript under here -->
+
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
+ 
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
+
+

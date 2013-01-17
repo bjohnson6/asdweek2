@@ -1,0 +1,50 @@
+
+
+
+
+
+
+label.error{display:block; margin:10px 0; color: #cc0000;}
+
+#myerrorslink{display:none;}
+
+.ui-bar-b {
+	background: #c35574;
+border: 1px solid #c35574;
+background: #c35574;
+color: white;
+font-weight: bold;
+
+
+}
+div.ui-collapsible-content{
+	background-color: white;
+	font-color: black;
+}
+div.ui-bar-b.ui-corner-top{
+	color:white;
+}
+
+form{
+	background-color: white;
+}
+
+.ui-body-c textarea{
+	font-color: black;
+}
+
+<style type="text/css">
+body {
+    background: url(images/img/backgroundpink.png);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+</style>
