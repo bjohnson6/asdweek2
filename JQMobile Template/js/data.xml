@@ -1,0 +1,83 @@
+
+<?xml version "1.0" encoding "UTF-8"?>
+<items>
+	<item>
+
+		<event>First Met</event>
+		<names>Bernice</names>
+		<when>Fall</when>
+		<where>Philly</where>
+		<startd>2009-09-12</startd>
+		<endd>2012-07-19</endd>
+		<zodiac>zodiacValue</zodiac>
+		<range>10</range>
+		<addnotes>hi</addnotes>
+	</item>
+ </items>		
+
+<?xml version "1.0" encoding "UTF-8"?>
+<items>
+	<item>
+
+		<event>First Met</event>
+		<names>Kylee</names>
+		<when>Winter</when>
+		<where>Reading</where>
+		<startd>2009-09-12</startd>
+		<endd>2012-07-19</endd>
+		<zodiac>zodiacValue</zodiac>
+		<range>8</range>
+		<addnotes>iceskating</addnotes>
+	</item>
+ </items>		
+
+<?xml version "1.0" encoding "UTF-8"?>
+<items>
+	<item>
+
+		<event>First Date</event>
+		<names>BE</names>
+		<when>Summer</when>
+		<what>nothing</what>
+		<where>Reading</where>
+		<startd>2009-8-12</startd>
+		<endd>2012-8-19</endd>
+		<zodiac>zodiacValue</zodiac>
+		<range>8</range>
+		<addnotes>fun baseball game</addnotes>
+	</item>
+ </items>		
+
+ <?xml version "1.0" encoding "UTF-8"?>
+<items>
+	<item>
+
+		<event>First Date</event>
+		<names>Amy and Ryan</names>
+		<when>Fall</when>
+		<what>nothing</what>
+		<where>morgantown</where>
+		<startd>2009-9-12</startd>
+		<endd>2012-9-19</endd>
+		<zodiac>zodiacValue</zodiac>
+		<range>10</range>
+		<addnotes>moms house</addnotes>
+	</item>
+ </items>		
+
+  <?xml version "1.0" encoding "UTF-8"?>
+<items>
+	<item>
+
+		<event>First Kiss</event>
+		<names>Amy and Ryan</names>
+		<when>Fall</when>
+		<what>nothing</what>
+		<where>morgantown</where>
+		<startd>2009-9-20</startd>
+		<endd>2012-9-20</endd>
+		<zodiac>zodiacValue</zodiac>
+		<range>10</range>
+		<addnotes>date</addnotes>
+	</item>
+ </items>		

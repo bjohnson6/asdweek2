@@ -1,6 +1,6 @@
 
 // Bernice Johnson -->
-// Project week 1 -->
+// Project week 2-->
 // ASD 13/01-->
 // write your javascript in here
 
@@ -111,3 +111,33 @@ function clearLocal () {
 	}
 
 }
+//JSON AJAX CALL
+$.ajax({
+	url:"get.json",
+	type:"GET",
+	dataType:"json",
+	success:function (data,status){
+		console.log(status,data);
+	}
+});
+	)
+var serializedItem=JSON.stringify(item);
+console.log(serializedItem);
+}
+
+//XML AJAX CALL
+$.ajax({
+	url:"get.XML",
+	type:"GET",
+	dataType:"XML",
+	success:function (data,status){
+		console.log(status,data);
+	}
+});
+//PARSE XML
+var data =$.parseXML(XML);
+var items=$(data);
+items.find("item").each(function(){
+	var item =$(this);
+	console.log("Name:",item.find("name"));
+});
