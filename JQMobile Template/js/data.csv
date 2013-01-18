@@ -1,1 +1,20 @@
 data.csv
+
+
+
+
+
+		Event,name,when,what,where,startd,endd,zodiac,range,addnotes
+		First Met,BE,Fall,anything,Philly,2009-09-12,2012-07-19,zodiacValue,10,hey
+
+		Event,name,when,what,where,startd,endd,zodiac,range,addnotes
+		First Date,BE,Summer,baseball,Philly,2009-09-12,2012-07-19,zodiacValue,9,fun
+
+		Event,name,when,what,where,startd,endd,zodiac,range,addnotes
+		First kiss,BE,winter,iceskateing,Philly,2009-09-12,2012-07-19,zodiacValue,10,nice kiss
+
+		Event,name,when,what,where,startd,endd,zodiac,range,addnotes
+		First Date,Bernice,Fall,got coffee,reading,2009-09-12,2012-07-19,zodiacValue,7,ok
+
+		Event,name,when,what,where,startd,endd,zodiac,range,addnotes
+		First Met,Amy,Fall,concert,reading,2009-09-12,2012-07-19,zodiacValue,8,it was fun

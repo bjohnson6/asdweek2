@@ -50,6 +50,13 @@
 
         </div>
  <!--         </div> -->
+ <div id="data">
+  <a href="#data"><input type="button" value="DATA/json/xml/cvs"/></a>
+  <input type="button" value="Display All"/>
+  <input type="button" value="Delete All"/>
+</div>
+
+
       
       
           <div data-role="content"> 
@@ -80,6 +87,46 @@
              </div>
          </div></footer>
      </div>   
+<!--Start of data page-->
+<div data-role="page" id="data" data-add-back-btn="true" style="background-image:url(images/img/pinkb.png)" data-position="fixed">
+
+
+  <div data-role="header"  data-position="fixed">
+   <div data-role="content">
+          <img  src="images/img/logo2.png" id="Logo" />
+     </div> 
+  </div><!-- /header -->
+
+<!--Buttons for the data-->
+
+
+
+  <div data-role="content"> 
+    <input type="button" id="json" value="Load Data.json" />
+
+
+    <input type="button" id="xml" value="Load Data.xml" />
+
+
+    <input type="button" id="cvs" value="Load Data.cvs" />
+
+
+
+     <div data-role="content">
+          
+  </div><!-- /content -->
+</div>
+
+  <div data-role="footer"  data-position="fixed">
+    <div data-role="navbar">
+               <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+               
+                </ul>
+             </div><!-- /navbar -->
+         </div><!--/footer-->    
+     </div>
+      
 
 
      <!-- Start of first page About Page-->
@@ -440,6 +487,9 @@
     <script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
  
 	<script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/data.json"></script>
+  <script type="text/javascript" src="js/data.xml"></script>
+  <script type="text/javascript" src="js/data.csv"></script>
 
 </body>
 </html>

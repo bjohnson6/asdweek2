@@ -115,9 +115,10 @@ function clearLocal () {
 $.ajax({
 	url:"get.json",
 	type:"GET",
-	dataType:"json",
+	dataType:"script",
 	success:function (data,status){
 		console.log(status,data);
+		alert("data saved");
 	}
 });
 	)
@@ -132,6 +133,7 @@ $.ajax({
 	dataType:"XML",
 	success:function (data,status){
 		console.log(status,data);
+		alert("Data Saved");
 	}
 });
 //PARSE XML
@@ -141,3 +143,24 @@ items.find("item").each(function(){
 	var item =$(this);
 	console.log("Name:",item.find("name"));
 });
+
+//CVS AJAX CALL
+$.ajax({
+	url:"get.cvs",
+	type:"GET",
+	dataType:"cvs",
+	success:function (data,status){
+		console.log(status,data);
+		alert("data saved");
+	}
+});
+
+//Button CLick ??
+$(document).on('pageinit',function(){
+	$("#json").click(function(event){
+		$.getJSON("/js/data.json"),function(){
+			$("#json").html
+		}
+	});
+});		
+	}
